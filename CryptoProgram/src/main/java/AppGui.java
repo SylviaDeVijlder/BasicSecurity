@@ -1,19 +1,18 @@
+import hash.Hash;
 import hybrid.encrypt.EncryptData;
 import hybrid.encrypt.EncryptKey;
 import hybrid.encrypt.StartEncryption;
 import keypair.GenerateKeys;
 import onekey.GenerateSymmetricKey;
 
+import javax.crypto.BadPaddingException;
+import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.security.GeneralSecurityException;
-import java.security.NoSuchAlgorithmException;
-import java.security.NoSuchProviderException;
+import java.io.*;
+import java.security.*;
 
 /**
  * Created by kimprzybylski on 22/03/17.
@@ -88,6 +87,7 @@ public class AppGui {
 
                 // Programma vraagt input aan Alice (bv. een boodschap om door te sturen)
                 System.out.println("Selecteer een bestand met boodschap.");
+                
 
                 // Programma gebruikt de symmetric key om de boodschap te encrypteren, en saved het resultaat in een file (File_1)
                 StartEncryption startEnc = new StartEncryption();
@@ -115,6 +115,23 @@ public class AppGui {
 
                 // Programma maakt een hash van de oorspronkelijke boodschap
                 //Programma encrypteert die hash met de private key van Alice, en saved het resultaat in een file (File_3)
+                try {
+                    Hash hash = new Hash(gk_Alice.getPrivateKey(), "Test.rtf");
+                } catch (InvalidKeyException e1) {
+                    e1.printStackTrace();
+                } catch (NoSuchAlgorithmException e1) {
+                    e1.printStackTrace();
+                } catch (SignatureException e1) {
+                    e1.printStackTrace();
+                } catch (BadPaddingException e1) {
+                    e1.printStackTrace();
+                } catch (IllegalBlockSizeException e1) {
+                    e1.printStackTrace();
+                } catch (NoSuchPaddingException e1) {
+                    e1.printStackTrace();
+                } catch (IOException e1) {
+                    e1.printStackTrace();
+                }
             }
         });
     }
