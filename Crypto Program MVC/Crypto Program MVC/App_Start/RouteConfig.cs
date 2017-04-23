@@ -14,9 +14,16 @@ namespace Crypto_Program_MVC
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                name: "Crypto",
+                url: "Crypto",
+                defaults: new { controller = "Crypto", action="Index", id = UrlParameter.Optional }
+                );
+
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Crypto", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

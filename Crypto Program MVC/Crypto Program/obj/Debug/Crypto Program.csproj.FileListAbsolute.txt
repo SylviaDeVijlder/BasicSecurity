@@ -12,3 +12,16 @@ C:\Users\Windows\Desktop\Crypto Program MVC\Crypto Program\obj\Debug\Crypto_Prog
 C:\Users\Windows\Desktop\Crypto Program MVC\Crypto Program\obj\Debug\Crypto Program.csproj.GenerateResource.Cache
 C:\Users\Windows\Desktop\Crypto Program MVC\Crypto Program\obj\Debug\Crypto Program.exe
 C:\Users\Windows\Desktop\Crypto Program MVC\Crypto Program\obj\Debug\Crypto Program.pdb
+C:\Users\Sylvia\Documents\GitHub\BasicSecurity\BasicSecurity\Crypto Program MVC\Crypto Program\bin\Debug\Crypto Program.exe.config
+C:\Users\Sylvia\Documents\GitHub\BasicSecurity\BasicSecurity\Crypto Program MVC\Crypto Program\obj\Debug\Crypto Program.exe
+C:\Users\Sylvia\Documents\GitHub\BasicSecurity\BasicSecurity\Crypto Program MVC\Crypto Program\obj\Debug\Crypto Program.pdb
+C:\Users\Sylvia\Documents\GitHub\BasicSecurity\BasicSecurity\Crypto Program MVC\Crypto Program\bin\Debug\Crypto Program.exe
+C:\Users\Sylvia\Documents\GitHub\BasicSecurity\BasicSecurity\Crypto Program MVC\Crypto Program\bin\Debug\Crypto Program.pdb
+C:\Users\Sylvia\Documents\GitHub\BasicSecurity\BasicSecurity\Crypto Program MVC\Crypto Program\obj\Debug\MainWindow.g.cs
+C:\Users\Sylvia\Documents\GitHub\BasicSecurity\BasicSecurity\Crypto Program MVC\Crypto Program\obj\Debug\App.g.cs
+C:\Users\Sylvia\Documents\GitHub\BasicSecurity\BasicSecurity\Crypto Program MVC\Crypto Program\obj\Debug\Crypto Program_MarkupCompile.cache
+C:\Users\Sylvia\Documents\GitHub\BasicSecurity\BasicSecurity\Crypto Program MVC\Crypto Program\obj\Debug\Crypto Program_MarkupCompile.lref
+C:\Users\Sylvia\Documents\GitHub\BasicSecurity\BasicSecurity\Crypto Program MVC\Crypto Program\obj\Debug\MainWindow.baml
+C:\Users\Sylvia\Documents\GitHub\BasicSecurity\BasicSecurity\Crypto Program MVC\Crypto Program\obj\Debug\Crypto Program.g.resources
+C:\Users\Sylvia\Documents\GitHub\BasicSecurity\BasicSecurity\Crypto Program MVC\Crypto Program\obj\Debug\Crypto_Program.Properties.Resources.resources
+C:\Users\Sylvia\Documents\GitHub\BasicSecurity\BasicSecurity\Crypto Program MVC\Crypto Program\obj\Debug\Crypto Program.csproj.GenerateResource.Cache

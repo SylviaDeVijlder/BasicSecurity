@@ -5,15 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Crypto_Program"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Crypto Program" Height="350" Width="525" Background="#FFA2A1A1">
     <Grid>
-        <Button Content="Encrypt File" x:Name="buttonEncryptFile" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="buttonEncryptFile_Click"/>
-        <Button Content="Decrypt File" x:Name="buttonDecryptFile" HorizontalAlignment="Left" Margin="118,10,0,0" VerticalAlignment="Top" Width="75" Click="buttonDecryptFile_Click"/>
-        <Button Content="Create Keys" x:Name="buttonCreateAsmKey" HorizontalAlignment="Left" Margin="231,10,0,0" VerticalAlignment="Top" Width="75" Click="buttonCreateAsmKey_Click"/>
-        <Button Content="Export Public Key" x:Name="buttonExportPublicKey"  HorizontalAlignment="Left" Margin="339,10,0,0" VerticalAlignment="Top" Width="75" Click="buttonExportPublicKey_Click"/>
-        <Button Content="Import Public Key" x:Name="buttonImportPublicKey" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Width="75" Click="buttonImportPublicKey_Click"/>
-        <Button x:Name="buttonGetPrivateKey" Content="Get Private Key" HorizontalAlignment="Left" Margin="118,67,0,0" VerticalAlignment="Top" Width="75" Click="buttonGetPrivateKey_Click"/>
-        <Label x:Name="label1" Content="" HorizontalAlignment="Left" Margin="90,157,0,0" VerticalAlignment="Top" Height="32" Width="362"/>
-
+        <Button Content="Encrypt" x:Name="buttonEncryptFile" HorizontalAlignment="Left" Margin="10,96,0,0" VerticalAlignment="Top" Width="103" Click="buttonEncryptFile_Click"/>
+        <Button Content="Decrypt" x:Name="buttonDecryptFile" HorizontalAlignment="Left" Margin="128,96,0,0" VerticalAlignment="Top" Width="103" Click="buttonDecryptFile_Click"/>
+        <Button Content="Create Keys" x:Name="buttonCreateAsmKey" HorizontalAlignment="Left" Margin="266,96,0,0" VerticalAlignment="Top" Width="103" Click="buttonCreateAsmKey_Click"/>
+        <Button Content="Export Public Key" x:Name="buttonExportPublicKey"  HorizontalAlignment="Left" Margin="266,139,0,0" VerticalAlignment="Top" Width="103" Click="buttonExportPublicKey_Click"/>
+        <Button Content="Import Public Key" x:Name="buttonImportPublicKey" HorizontalAlignment="Left" Margin="383,139,0,0" VerticalAlignment="Top" Width="103" Click="buttonImportPublicKey_Click"/>
+        <Button x:Name="ButtonGetPrivateKey" Content="Get Private Key" HorizontalAlignment="Left" Margin="383,97,0,0" VerticalAlignment="Top" Width="103" Click="buttonGetPrivateKey_Click"/>
+        <Label x:Name="label1" Content="" HorizontalAlignment="Left" Margin="16,248,0,0" VerticalAlignment="Top" Height="32" Width="362"/>
+        <Label x:Name="LabelEncryptDecrypt" Content="Encrypt/Decrypt file:" HorizontalAlignment="Left" Margin="27,27,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <Label x:Name="LabelKeyManagement" Content="Key Management:" HorizontalAlignment="Left" Margin="282,27,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <Label x:Name="LabelUitleg" Content="Step 1: Create a key Pair&#xD;&#xA;Step 2: Click Encrypt or Decrypt&#xD;&#xA;Step 3: Choose a file." HorizontalAlignment="Left" Margin="30,195,0,0" VerticalAlignment="Top" Height="68" Width="282"/>
     </Grid>
 </Window>

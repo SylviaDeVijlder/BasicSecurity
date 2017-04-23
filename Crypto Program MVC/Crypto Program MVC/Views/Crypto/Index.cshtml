@@ -1,0 +1,23 @@
+﻿@*@Model CryptoModel*@
+
+@{
+    ViewBag.Title = "Crypto Program";
+}
+
+<h2>Crypto Program</h2>
+<div>
+    <h3>Encrypt/Decrypt file</h3>
+    <button>Encrypt</button> 
+    <button>Decrypt</button>
+
+</div>
+<div>
+    <h3>Key Management</h3>
+    <button ahref='@Url.Action("CreateKeys", "Crypto")'>
+        Create Keys
+    </button>
+
+    <button>Get Private Key</button>        <br><br>
+    <button>Export Public Key</button>  
+    <button>Import Public Key</button>
+</div>
